@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Formulário de Registro</title>
-    <link rel="stylesheet" href="css/formulario.css">
+    <title>Cadastro</title>
+    <link rel="stylesheet" href="css/cadastro.css">
 </head>
 <body>
     <nav id="menu_h">
@@ -22,22 +22,21 @@
     <div class="box">
         <form action="">
             <fieldset>
-                <legend>Cadastro</legend>
+                <legend><b>Cadastro</b></legend>
                 <br>
                 <div class="inputBox">
-                    <input type="text" name="nome" id="nome" class="inputUser" requerid>
+                    <input type="text" name="nome" id="nome" class="inputUser" required>
                     <label for="nome" class="labelInput">Nome completo</label>
-                    <br><br>
                 </div>
+                <br><br>
                 <div class="inputBox">
-                    <input type="text" name="email" id="email" class="inputUser" requerid>
+                    <input type="text" name="email" id="email" class="inputUser" required>
                     <label for="email" class="labelInput">Email</label>
-                    <br><br>
                 </div>
-                <div  class="inputBox">
-                    <input type="tel" name="tel" id="tel" class="inputUser" requerid>
-                    <label for="tel" class="labelInput">Telefone</label>
-                    <br><br>
+                <br><br>
+                <div class="inputBox">
+                    <input type="tel" name="telefone" id="telefone" class="inputUser" required>
+                    <label for="telefone" class="labelInput">Telefone</label>
                 </div>
                 <p>Tipo de cadastro:</p>
                 <br>
@@ -46,29 +45,27 @@
                 <input class="input_radio" type="radio" id="locatario" name="tipoCadastro" value="locatario" required>
                 <label for="locatario">Locatario</label>
                 <br><br>
-                <div  class="inputBox">
-                    <label for="data_nascimento">Data de nascimento:</label>
-                    <input type="date" name="data_nascimento" id="data_nascimento" class="inputUser" requerid>
-                </div>
-                <br><br>
+                <label for="data_nascimento"><b>Data de Nascimento:</b></label>
+                <input type="date" name="data_nascimento" id="data_nascimento" required>
+                <br><br><br>
                 <div class="inputBox">
-                    <input type="text" name="estado" id="estado" class="inputUser" requerid>
-                    <label for="estado" class="labelInput">Estado</label>
-                </div>
-                <br><br>
-                <div class="inputBox">
-                    <input type="text" name="cidade" id="cidade" class="inputUser" requerid>
+                    <input type="text" name="cidade" id="cidade" class="inputUser" required>
                     <label for="cidade" class="labelInput">Cidade</label>
                 </div>
                 <br><br>
                 <div class="inputBox">
-                    <input type="text" name="endereco" id="endereco" class="inputUser" requerid>
+                    <input type="text" name="estado" id="estado" class="inputUser" required>
+                    <label for="estado" class="labelInput">Estado</label>
+                </div>
+                <br><br>
+                <div class="inputBox">
+                    <input type="text" name="endereco" id="endereco" class="inputUser" required>
                     <label for="endereco" class="labelInput">Endereço</label>
                 </div>
                 <br><br>
                 <input type="submit" name="submit" id="submit">
             </fieldset>
         </form>
-    </div>    
+    </div>
 </body>
 </html>
