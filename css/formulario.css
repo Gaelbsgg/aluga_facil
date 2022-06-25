@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+* {
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+body {
+    background-image: linear-gradient(90grad,rgb(24, 139, 233), rgb(37, 37, 39));
+}
+#menu_h ul {
+    list-style: none;
+    padding: 0;
+    background-color: rgb(37, 37, 39);
+}
+#menu_h ul li {
+    display: inline;
+}
+#menu_h ul li a {
+    color:  #fff;
+    padding: 20px;
+    display: inline-block;
+    text-decoration: none;
+    transition: background .4s;
+}
+#menu_h ul li a:hover {
+    background-color: rgb(24, 139, 233);
+}
+#menu_h ul li:last-child a {
+    float: right;
+    background-color: rgb(24, 139, 233);
+}
+.box {
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-30%);
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 15px;
+    border-radius: 15px;
+    width: 35%;
+}
+fieldset {
+    border: 3px solid dodgerblue;
+}
+legend {
+    text-align: center;
+    border: 1px solid dodgerblue;
+    padding: 10px;
+    background-color: dodgerblue;
+    border-radius: 8px;
+}
+.inputBox {
+    position: relative;
+    padding: 5px;
+}
+.inputUser {
+    background: none;
+    border: none;
+    border-bottom: 1px solid #ffff;
+    outline: none;
+    color: #fff;
+    font-size: 15px;
+    width: 100%;
+    letter-spacing: 2px;
+}
+.labelInput {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    pointer-events: none;
+    transition: .5s;
+    padding: 5px;
+}
+.inputUser:focus~.labelInput {
+    top: -20px;
+    font-size: 12px;
+    color: dodgerblue;
+}
+p {
+    padding: 5px;
+}
+.input_radio {
+    width: 20%;
+    text-align: center;
+}
