@@ -30,3 +30,51 @@ body {
     float: right;
     background-color: rgb(24, 139, 233);
 }
+.container {
+    display: flex;
+    padding: 20px;
+}
+.child p {
+    text-align: center;
+    font-weight: bold;       
+}
+.child a {
+    text-decoration: none;
+    color: black;
+    text-align: center;
+    padding: 20px;
+    background-color: #fff;
+    display: inline-block;    
+}
+.container2 {
+    display: flex;
+    padding: 20px;
+}
+.child2 p {
+    text-align: center;
+    font-weight: bold;       
+}
+.child2 a {
+    text-decoration: none;
+    color: black;
+    text-align: center;
+    padding: 20px;
+    background-color: #fff;
+    display: inline-block;    
+}
+.container3 {
+    display: flex;
+    padding: 20px;
+}
+.child3 p {
+    text-align: center;
+    font-weight: bold;       
+}
+.child3 a {
+    text-decoration: none;
+    color: black;
+    text-align: center;
+    padding: 20px;
+    background-color: #fff;
+    display: inline-block;    
+}
